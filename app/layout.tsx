@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Abhishek Kumar Gautam | Full-Stack Developer",
-  description: "Portfolio of Abhishek Kumar Gautam: full-stack development, UI/UX, and cybersecurity.",
+  description: "Portfolio of Abhishek Kumar Gautam, a Computer Science graduate focused on full-stack development.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

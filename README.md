@@ -1,12 +1,12 @@
 # Abhishek Kumar Gautam Portfolio
 
-A responsive portfolio built with Next.js, TypeScript, React, and Tailwind CSS. The portrait is served from public/portrait.jpg, and the supplied resume is embedded for the PDF actions.
+A responsive, dark portfolio built with Next.js and React. The page presents only résumé-backed projects, skills, certifications, education, and contact details.
 
 ## Run locally
-
-Install dependencies and start the development server:
 
 ```sh
 npm install
 npm run dev
 ```
+
+The portrait and downloadable résumé are served from `public/`.
