@@ -3,3 +3,6 @@
 @tailwind utilities;
 
 html, body { min-height: 100%; margin: 0; background: #090a0b; }
+.portfolio-enter { animation: portfolio-enter 450ms ease-out both; }
+@keyframes portfolio-enter { from { opacity: 0; } to { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .portfolio-enter { animation: none; } }
